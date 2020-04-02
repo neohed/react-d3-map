@@ -52,16 +52,19 @@ Examples of D3 Geo maps in React.
 4) Test in a cmd:
 
 > gdalinfo --version
+>
+>5) npm install -g topojson
 
 ### 2 - Data
 
 1) Download
     http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_map_subunits.zip
     
-2) Convert .shp file to .json file
+2) Convert .shp file to geojson
      ogr2ogr -f GeoJSON world.json ne_10m_admin_0_map_subunits.shp
 
 3) Convert to topojson
+    geo2topo world.json > world.topo.json
 
 4) Quantize and simplify
 
