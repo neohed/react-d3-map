@@ -1,10 +1,6 @@
 # React D3 Map
 
-Simple example of a D3 geo map in React.  This project includes code from M. Bostock and the D3 In Action book.
-
-Under the static/ folder I have some D3 geo charts taken from bost.ocks.org that use d3 library directly.
-
-Under src/ folder I have some D3 geo charts in React that use the npmjs D3 packages.
+Examples of D3 Geo maps in React.
 
 ## Resources
 
