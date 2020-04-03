@@ -66,7 +66,8 @@ Examples of D3 Geo maps in React.
 3) Convert to topojson
     geo2topo world.json > world.topo.json
 
-4) Quantize and simplify
+4) Simplify, quantize and compress
+    https://medium.com/@mbostock/command-line-cartography-part-3-1158e4c55a1e
 
 ### Build
 
