@@ -72,6 +72,8 @@ Examples of D3 Geo maps in React.
 ### Build
 
 1) React app + packages
+    npm i -S d3-geo topojson-client
+    
 2) Show map
 3) Zoom + pan functionality
 4) Add data points
